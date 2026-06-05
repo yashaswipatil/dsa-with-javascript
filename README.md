@@ -17,6 +17,8 @@ This repository contains my solutions to DSA problems solved from scratch, with 
 ```
 dsa-with-javascript/
 │
+├── loops/
+├── loopsWithinLoops/
 ├── arrays/
 ├── strings/
 ├── linked-lists/
