@@ -66,7 +66,7 @@ dsa-with-javascript/
 
 | Difficulty | Solved |
 |---|---|
-| 🟢 Easy | 0 |
+| 🟢 Easy | 10 |
 | 🟡 Medium | 0 |
 | 🔴 Hard | 0 |
 
