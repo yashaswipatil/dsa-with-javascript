@@ -14,3 +14,5 @@ let arr = [4, 3, 0, 1, 31, 33, 45, 67];
 
 let res = smallestNumber(arr);
 console.log(res);
+
+//!Output => 0

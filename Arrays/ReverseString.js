@@ -16,3 +16,5 @@ let arr = ["h", "e", "l", "l", "o"];
 let res = reverseString(arr);
 
 console.log(res);
+
+//!Output => ["o", "l", "l" , "e" , "h"]

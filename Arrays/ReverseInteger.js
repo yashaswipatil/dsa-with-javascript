@@ -17,3 +17,12 @@ function reverseInteger(x){
     return (nCopy > 0) ? -rev : rev;
 
 }
+
+let x = 123
+
+let res = reverseInteger(x)
+
+confirm.log(res)
+
+
+//!output => 321

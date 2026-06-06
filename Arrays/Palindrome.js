@@ -12,3 +12,9 @@ function palindrome(x){
     }
     return rev === xCopy
 }
+
+let x = 121;
+let res = palindrome(x)
+console.log(x);
+
+//!output => yes

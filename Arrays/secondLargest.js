@@ -19,3 +19,5 @@ let arr = [7, 8, 20, 42, 9, 0, 4];
 
 let res = secondLargest(arr);
 console.log(res);
+
+//!Output => 20

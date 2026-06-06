@@ -16,3 +16,5 @@ let nums = [3,2,2,3]
 let res = removeElement(nums);
 
 console.log(res)
+
+//!Output =>2, [2,2]
