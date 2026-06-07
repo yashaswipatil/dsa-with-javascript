@@ -1,21 +1,18 @@
-//* write a function to find max consecutive ones
+//*Write a function to find the missing Number
 
-function maxConsecutive(nums) {
-  let currCount = 0;
-  let maxCount = 0;
+function missingNumber(nums){
+    let n = nums.length;
+    let totalSum = n * (n + 1) / 2;
+    let partialSum = 0;
 
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] !== 0) {
-      currCount++;
-    } else {
-      maxCount = Math.max(currCount, maxCount);
-      currCount = 0;
+    for(let i = 0 ; i < n ;i++){
+        partialSum = partialSum + nums[i];
     }
-  }
-  return Math.max(currCount, maxCount);
+
+    return totalSum - partialSum;
 }
 
-let nums = [1, 1, 1, 1, 0, 1, 0, 1, 1, 0];
+let nums = [3,0,1]
 
-let res = maxConsecutive(nums);
-console.log(res);
+let res = missingNumber(nums);
+console.log(res)
