@@ -5,4 +5,6 @@ function sum(n){
     return n + sum(n-1)
 }
 
-//sum(5);
+//console.log(sum(5));
+
+//!Output => 15
