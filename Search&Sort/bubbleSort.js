@@ -12,8 +12,9 @@ function bubbleSort(arr) {
         arr[j + 1] = temp;
         isSwapped = true;
       }
-      if(!isSwapped) break;
     }
+      if(!isSwapped) break;
+    
   }
 
   return arr;
