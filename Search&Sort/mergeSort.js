@@ -1,4 +1,4 @@
-//*write a algorithm to sort two arrays
+//*write a algorithm to sort an array using merge sort
 
 function mergeSort(arr){
     if(arr.length <= 1) return arr;
