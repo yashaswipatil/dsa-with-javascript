@@ -14,8 +14,28 @@ function linkedListCycle(head){
     return false;
 }
 
+function linkedListCycle2(head){
+    if(!head) return false;
+
+    let slow = head;
+    let fast = head.next;
+
+    while(slow != fast){
+        if(fast == null || fast.next == null){
+            return false
+        }
+
+        slow = slow.next;
+        fast = fast.next.next;
+    }
+    return true;
+}
+
+
 let head = [3, 2, 0, -4];
 
 let res = linkedListCycle(head);
+let res2 = linkedListCycle2(head);
 
 console.log(res)
+console.log(res2)
