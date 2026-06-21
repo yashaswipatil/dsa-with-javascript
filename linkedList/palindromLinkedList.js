@@ -31,3 +31,33 @@ function palindromeLinkedList(head){
     return true;
 
 }
+
+
+
+function palindromeLinkedList2(head){
+    let arr = [];
+    let curr = head;
+    while(curr){
+        arr.push(curr.val);
+        curr = curr.next
+    }
+    let left = 0; right = arr.length  - 1;
+    while(left < right){
+        if(arr[left++] !== arr[right--]){
+            return false
+        }
+
+    }
+    return true;
+}
+
+let head = [1, 2, 2, 1];
+
+let res = palindromeLinkedList(head);
+let res2 = palindromeLinkedList2(head);
+
+console.log(res)
+console.log(res2)
+
+
+//!Output => true
