@@ -1,6 +1,8 @@
 //*write a function to rotate the linked list with k times
 
 function rotate(head,k){
+    if(!head || !head.next) return head;
+
     let length = 0;
     let curr = head;
     while(curr){
