@@ -1,6 +1,8 @@
 //*Write  a function to swap in pairs of linked list 
 
 function swapPairs(head){
+    if(!head || !head.next) return head;
+
     let dummy = new ListNode();
     dummy.next = head;
 
