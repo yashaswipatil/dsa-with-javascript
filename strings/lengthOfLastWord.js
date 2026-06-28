@@ -40,9 +40,17 @@ function lengthOfTheWord2(s){
     return length;
 }
 
+function lengthOfTheLastWord(s){
+    s = s.trim();
+    s = s.split(" ");
+
+    return s[s.length - 1].length;
+}
+
 let s = "Hello World";
 let res = lengthOfTheWord(s);
 let res2 = lengthOfTheWord2(s);
+let res3 = lengthOfTheLastWord(s);
 
 console.log(res);
 
